@@ -1,4 +1,7 @@
 Author: Mia Dai
+# Related Papers
+Mitocarta paper: https://academic.oup.com/nar/article/49/D1/D1541/5974091?login=true
+cell painting: https://www.nature.com/articles/nprot.2016.105
 # Image Data
 1. Picture data are 16 bit. Unlike standard 8-bit images, which can show 256 levels of brightness (0–255), a 16-bit image has a much larger range of 65,536 levels (0–65,535). This allows for a lot more detail and subtle gradations in intensity. However, typical image viewers are optimized for 8-bit images and may not automatically adjust for the higher range in 16-bit images, causing the image to appear very dark or even black. This means that, in the context of a 16-bit range, these pixels have very low intensity relative to the maximum possible value. Also the positive ones are usually <1000. As a result, they are not easily visible when the image is displayed without adjustments.
 2. The image matrices are {(2048, 2048), (512, 512), (1024, 1024)}. The value of integer pixel is in the range of 0–65,535.
